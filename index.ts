@@ -20,7 +20,7 @@ console.log("Client ready -> " + clientReadiness);
 
 // await ClipExamples.hybridExample(client);
 
-await ClipExamples.mediaSearchExample(client, './examples/white-ragdoll-cat.jpg');
-await ClipExamples.mediaSearchExample(client, './examples/eiffel-tower.jpg');
+await ClipExamples.mediaSearchExample(client, './examples/img/white-ragdoll-cat.jpg');
+await ClipExamples.mediaSearchExample(client, './examples/img/eiffel-tower.jpg');
 
 client.close();
